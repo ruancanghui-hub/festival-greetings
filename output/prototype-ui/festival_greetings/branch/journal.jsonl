@@ -1,0 +1,2 @@
+{"v":1,"ts":"2026-09-03T10:00:48.107Z","cmd":"branch execute","args_digest":"1d26da825537ed7e2e7645872dcb07389a3035b5251a5596ab6472dc6d5f35f6","idempotency_key":"festival-greetings-phase3-v1","paid":true,"event":"start","terminal":false,"detached":false,"pid":93506}
+{"v":1,"ts":"2026-09-03T10:00:50.533Z","cmd":"branch execute","args_digest":"1d26da825537ed7e2e7645872dcb07389a3035b5251a5596ab6472dc6d5f35f6","idempotency_key":"festival-greetings-phase3-v1","paid":true,"event":"end","outcome":"error","error_class":"unclassified","terminal":false,"detached":false,"pid":93506}

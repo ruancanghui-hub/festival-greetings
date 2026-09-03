@@ -1,0 +1,7 @@
+{
+  "meta": {"tab": "create", "reference_file": "references/ref-app-wide.png", "content_excluded": true},
+  "design_style": {"mood": "focused, gentle, crafted night", "color_palette": {"background": "deep ink-navy fibre texture", "surface": "matte indigo paper", "text_primary": "rice-paper ivory", "text_secondary": "muted parchment", "accent": "vermilion red"}, "typography": {"header_scale": "clear Chinese title", "body_scale": "compact readable labels", "hierarchy": "task heading, selected state, helper copy, action"}, "spacing": {"page_padding": "generous", "section_gap": "medium", "card_gap": "12-16px"}, "effects": {"corner_radius": "soft 20-28px", "surfaces": "layered paper, warm edge light"}},
+  "structure": {"layout_type": "vertical mobile scroll", "regions": ["task header", "step-progress motif", "relationship selector", "occasion and tone selectors", "AI prompt field", "primary action", "fixed three-item bottom navigation"], "layout_principles": ["one primary linear task", "selected options use seal-like accent", "primary CTA stays visually dominant"]},
+  "components": {"selectors": "rounded paper chips", "input": "large folded-note field", "cta": "vermilion pill button", "bottom_nav": "three equal destinations"},
+  "replication_notes": ["Use source only for shell geometry and tactile visual system", "No fabricated features beyond PRD", "active tab is 创作"]
+}

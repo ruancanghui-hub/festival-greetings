@@ -2,7 +2,7 @@
   "schema_version": 2,
   "product_slug": "festival_greetings",
   "workflow": {
-    "phase": "PHASE_2_IP",
+    "phase": "PHASE_4_FLUTTER_SCAFFOLD",
     "mode": "深度访谈模式",
     "started_at": "2026-08-31",
     "updated_at": "2026-09-03"
@@ -50,18 +50,18 @@
       "archived_prd": "../../product/_archive/2026-08-31-节日祝福"
     },
     "brand": {
-      "delivery_dir": "",
-      "direction_id": null,
-      "tab_ui_direction": null,
+      "delivery_dir": "../../../output/brand-ip/festival_greetings",
+      "direction_id": "cloud_note",
+      "tab_ui_direction": "modular_home",
       "tab_ui_reference": "",
       "core_tab_ui_requested": false,
       "core_tab_ui_dir": "",
       "core_tab_ui_contract": "",
       "core_tab_ui_status": "NOT_REQUESTED",
       "deferred_root_tabs": [],
-      "icon_path": "",
-      "launch_screen_path": "",
-      "zip_path": "",
+      "icon_path": "../../../output/brand-ip/festival_greetings/02-app-branding/app-icon-master.png",
+      "launch_screen_path": "../../../output/brand-ip/festival_greetings/02-app-branding/launch-screen.png",
+      "zip_path": "../../../output/festival_greetings-app-brand-ip.zip",
       "ui_assets_dir": "",
       "ui_assets_zip": "",
       "ui_assets_status": "NOT_REQUESTED"
@@ -76,7 +76,8 @@
       "project_name": "festival_greetings",
       "org": "com.ruancanghui",
       "app_id": "festival_greetings_v1",
-      "app_name": "节日祝福"
+      "app_name": "节日祝福",
+      "skeleton_page": "../../../apps/festival_greetings/lib/features/home/pages/home_page.dart"
     },
     "features": {
       "implementation_trace": "",
@@ -100,9 +101,9 @@
   },
   "gates": {
     "prd": "PASS",
-    "ip": "PENDING",
+    "ip": "PASS",
     "prototype": "PENDING",
-    "flutter_scaffold": "PENDING",
+    "flutter_scaffold": "PASS",
     "features": "PENDING",
     "qa": "PENDING",
     "app_store": "PENDING"

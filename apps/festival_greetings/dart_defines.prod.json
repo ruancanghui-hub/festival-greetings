@@ -1,0 +1,7 @@
+{
+  "APP_VARIANT": "prod",
+  "APP_INSTANCE_ID": "festival_greetings_v1",
+  "APP_INSTANCE_NAME": "节日祝福",
+  "FIREBASE_CONFIGURED": "false",
+  "OPS_CONSOLE_BASE_URL": ""
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {"tab": "profile", "reference_file": "references/ref-app-wide.png", "content_excluded": true},
+  "design_style": {"mood": "quiet, personal, reassuring", "color_palette": {"background": "deep ink-navy fibre texture", "surface": "matte navy and rice-paper panels", "text_primary": "warm ivory", "text_secondary": "muted parchment", "accent": "vermilion red with small teal fold detail"}, "typography": {"header_scale": "warm Chinese greeting", "body_scale": "readable list labels", "hierarchy": "profile identity, reuse counts, saved content, settings"}, "spacing": {"page_padding": "generous", "section_gap": "medium", "card_gap": "12-16px"}, "effects": {"corner_radius": "soft 20-28px", "surfaces": "quiet paper cards with subtle relief"}},
+  "structure": {"layout_type": "vertical mobile scroll", "regions": ["personal header", "saved-content summary", "my text templates", "favorites", "privacy and app settings", "fixed three-item bottom navigation"], "layout_principles": ["clear groups with right-side chevrons", "warm mascot accent, not account-centric", "bottom nav locks shell"]},
+  "components": {"summary": "two compact statistic cards", "saved_content": "paper list rows", "settings": "grouped list", "bottom_nav": "three equal destinations"},
+  "replication_notes": ["Avoid cloud-account and subscription UI", "Use only PRD My features", "active tab is 我的"]
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {"tab": "home", "reference_file": "references/ref-app-wide.png", "content_excluded": true},
+  "design_style": {"mood": "ceremonial, warm, handcrafted night", "color_palette": {"background": "deep ink-navy with fibre texture", "surface": "matte navy paper cards", "text_primary": "warm rice-paper ivory", "text_secondary": "muted parchment", "accent": "vermilion red and moonlit gold"}, "typography": {"header_scale": "large expressive Chinese headline", "body_scale": "compact readable Chinese sans/serif pairing", "hierarchy": "hero headline, section title, card label, metadata"}, "spacing": {"page_padding": "generous", "section_gap": "medium", "card_gap": "consistent narrow gutter"}, "effects": {"corner_radius": "soft 20-28px", "surfaces": "layered paper and restrained inner shadow", "imagery": "paper-cut festival illustration with warm lantern glow"}},
+  "structure": {"layout_type": "vertical mobile scroll", "regions": ["immersive hero", "relationship shortcut row", "recommended-card rail", "primary AI action", "fixed three-item bottom navigation"], "layout_principles": ["hero leads with one clear action", "compact rounded tiles", "bottom navigation uses icon and Chinese label"]},
+  "components": {"hero": "full-width scenic card", "relationship_shortcuts": "six equal icon tiles", "content_cards": "three-up horizontal rail", "bottom_nav": "three equal destinations"},
+  "replication_notes": ["Preserve hierarchy and paper material rather than source copy", "Use PRD navigation only", "active tab is signaled by vermilion icon and label"]
+}

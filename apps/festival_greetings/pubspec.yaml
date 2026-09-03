@@ -1,0 +1,29 @@
+name: festival_greetings
+description: "App template source (minimal dual-platform Flutter app)."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  dio: ^5.11.0
+  firebase_analytics: ^12.5.0
+  firebase_core: ^4.14.0
+  firebase_crashlytics: ^5.3.0
+  firebase_remote_config: ^6.6.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get: ^4.7.3
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
