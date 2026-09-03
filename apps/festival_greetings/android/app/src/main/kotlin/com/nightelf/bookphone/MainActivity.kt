@@ -1,4 +1,4 @@
-package com.ruancanghui.festival_greetings
+package com.nightelf.bookphone
 
 import io.flutter.embedding.android.FlutterActivity
 
