@@ -1,0 +1,118 @@
+{
+  "schema_version": 2,
+  "product_slug": "festival_greetings",
+  "workflow": {
+    "phase": "PHASE_2_IP",
+    "mode": "深度访谈模式",
+    "started_at": "2026-08-31",
+    "updated_at": "2026-09-03"
+  },
+  "intake": {
+    "one_liner": "关系导向的 AI 祝福贺卡助手——写好这句话，做成一张可分享的贺卡",
+    "competitors": [
+      {
+        "name": "大福贺卡",
+        "url": "https://apps.apple.com/cn/app/%E5%A4%A7%E7%A6%8F%E8%B4%BA%E5%8D%A1-%E6%96%B0%E5%B9%B4%E6%81%8B%E7%88%B1%E7%94%9F%E6%97%A5%E5%9C%A3%E8%AF%9E%E7%AD%89%E7%94%B5%E5%AD%90%E8%B4%BA%E5%8D%A1%E5%88%B6%E4%BD%9C/id1345185172",
+        "role": "primary"
+      },
+      {
+        "name": "祝福短信助手",
+        "url": "https://apps.apple.com/cn/app/%E7%A5%9D%E7%A6%8F%E7%9F%AD%E4%BF%A1%E5%8A%A9%E6%89%8B/id6760574145",
+        "role": "secondary_archived"
+      }
+    ],
+    "platform": "iOS 优先（iOS 16.6+）",
+    "inferences": [
+      "融合路径：AI 文案 + 静态贺卡分享",
+      "动态/短视频与自定义照片为 P1",
+      "MVP 免费无广告，P2 会员",
+      "同仓同 slug；旧 PRD 归档至 docs/product/_archive/"
+    ]
+  },
+  "metadata": {
+    "产品名": "节日祝福",
+    "模式": "深度访谈模式",
+    "平台": "iOS 优先（iOS 16.6+）",
+    "目标用户": "逢年过节需向亲友发送有仪式感中文祝福的成年 iPhone 用户",
+    "商业策略": "MVP 完全免费无广告；架构预留会员订阅，P2 接入 StoreKit"
+  },
+  "mvp_loop": "选关系与场景 → AI 生成祝福语 → 套静态贺卡 → 保存相册/系统分享",
+  "phases": {
+    "prd": {
+      "dir": "../../product/2026-09-03-节日祝福",
+      "files": {
+        "功能清单": "../../product/2026-09-03-节日祝福/01-功能清单.md",
+        "PRD": "../../product/2026-09-03-节日祝福/02-PRD.md",
+        "MVP范围": "../../product/2026-09-03-节日祝福/03-MVP范围.md",
+        "sources": "../../product/2026-09-03-节日祝福/sources.md",
+        "assumptions": "../../product/2026-09-03-节日祝福/assumptions.md"
+      },
+      "archived_prd": "../../product/_archive/2026-08-31-节日祝福"
+    },
+    "brand": {
+      "delivery_dir": "",
+      "direction_id": null,
+      "tab_ui_direction": null,
+      "tab_ui_reference": "",
+      "core_tab_ui_requested": false,
+      "core_tab_ui_dir": "",
+      "core_tab_ui_contract": "",
+      "core_tab_ui_status": "NOT_REQUESTED",
+      "deferred_root_tabs": [],
+      "icon_path": "",
+      "launch_screen_path": "",
+      "zip_path": "",
+      "ui_assets_dir": "",
+      "ui_assets_zip": "",
+      "ui_assets_status": "NOT_REQUESTED"
+    },
+    "prototype": {
+      "dir": "../../../docs/prototype",
+      "traceability_rows": 0,
+      "cdb_dir": ""
+    },
+    "flutter": {
+      "output_dir": "../../../apps/festival_greetings",
+      "project_name": "festival_greetings",
+      "org": "com.ruancanghui",
+      "app_id": "festival_greetings_v1",
+      "app_name": "节日祝福"
+    },
+    "features": {
+      "implementation_trace": "",
+      "p0_implemented": 0,
+      "p0_deferred": 0,
+      "asset_page_dir": "",
+      "asset_page_assets": "",
+      "asset_page_status": "NOT_REQUESTED"
+    },
+    "qa": {
+      "report": "",
+      "device": "",
+      "build": ""
+    },
+    "app_store": {
+      "submission": "",
+      "privacy": "",
+      "testflight_build": "",
+      "submission_status": ""
+    }
+  },
+  "gates": {
+    "prd": "PASS",
+    "ip": "PENDING",
+    "prototype": "PENDING",
+    "flutter_scaffold": "PENDING",
+    "features": "PENDING",
+    "qa": "PENDING",
+    "app_store": "PENDING"
+  },
+  "domain_docs": {
+    "glossary": "glossary.md",
+    "adr_dir": "adr"
+  },
+  "evolution": {
+    "repetition_log": "",
+    "playbooks_index": ""
+  }
+}
